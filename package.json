@@ -1,0 +1,20 @@
+{
+  "name": "AyajiroNote",
+  "version": "0.0.1",
+  "description": "Ayajiro's personal Blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Ayajiro",
+    "email": "nakamura.ayajiro@gmail.com"
+  },
+  "repository": "https://github.com/Ayajiro/Ayajiro.github.io/Ayajiro&#39;s Note",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/theme-blog": "^2.1.0"
+  }
+}
