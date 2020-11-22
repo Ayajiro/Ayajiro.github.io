@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
-  theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  title: "Ayajiro's Note",
+  description: "Web development, Frontend, Javascript, Cat",
+  theme: "@vuepress/theme-blog", // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
@@ -14,12 +14,12 @@ module.exports = {
      */
     nav: [
       {
-        text: 'Blog',
-        link: '/',
+        text: "Blog",
+        link: "/",
       },
       {
-        text: 'Tags',
-        link: '/tag/',
+        text: "Tags",
+        link: "/tag/",
       },
     ],
     /**
@@ -28,24 +28,27 @@ module.exports = {
     footer: {
       contact: [
         {
-          type: 'github',
-          link: 'https://github.com/ulivz',
+          type: "github",
+          link: "https://github.com/ulivz",
         },
         {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          type: "twitter",
+          link: "https://twitter.com/_ulivz",
         },
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          text: "Privacy Policy",
+          link: "https://policies.google.com/privacy?hl=en-US",
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
+          text: "MIT Licensed | Copyright © 2018-present Vue.js",
+          link: "",
         },
       ],
     },
   },
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }]
+  ]
 }
