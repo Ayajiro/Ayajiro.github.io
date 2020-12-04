@@ -2,21 +2,13 @@
 title: About
 ---
 
-<h1 class="index_title">All about Ayajiro</h1>
+<h1 class="index_title">Ayajiro</h1>
 
-<!-- # All about Ayajiro -->
-
-你好，我是 Ayajiro
+你好！我是 Ayajiro！
 
 做各種各樣事情的貓奴
 
-專長前端客製化RWD切版、API串接、網站維護等
-
 有興趣的事情就會儘可能的去嘗試
-
-在餐廚、新媒體、網管、PM各個領域探險過之後
-
-目前想要更加深入探索前端及測試領域
 
 養了兩隻貓，一隻會開喇叭鎖，另一隻負責討零食
 
