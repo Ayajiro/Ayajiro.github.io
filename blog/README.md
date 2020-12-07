@@ -6,7 +6,7 @@ title: About
 
 你好！我是 Ayajiro！
 
-做各種各樣事情的貓奴
+做各種各樣事情的貓奴工程師
 
 有興趣的事情就會儘可能的去嘗試
 
@@ -16,12 +16,7 @@ title: About
 
 - 改寫部落格（ Hexo -> VuePress Blog ）
 - 架設繁體版日文文法指南手冊（ VuePress Doc ）
-- 翻譯與剪輯 Vtuber 日文配信片段
-
-最近很喜歡 Hololive，不過因爲幾乎不會日文的關係，很想知道他們在說什麼，於是決定開始學日文一邊試著自己翻譯看看。
-<!-- [我對學習日文的看法](/jplear/) -->
-
-後來找到了一份日語語法指南，從日文而非英文或中文角度出發學習日文，越看越喜歡，決定邊讀邊把這份指南翻譯成繁體中文版，順便連原本的舊部落格一起翻新。
+- 翻譯與剪輯 Vtuber 有趣的日文配信片段
 
 相關的筆記和記錄會放在日常筆記裡面。
 
@@ -38,6 +33,8 @@ title: About
 <style lang="stylus" scoped>
 p
    font-size 18px
+p>img
+   width 49%
 @media (max-width: $MQMobile)
     p
       text-align left
