@@ -2,9 +2,7 @@
 title: Test vuepress
 date: 2020-11-08
 tags: 
-  -Vue
-author: Ayajiro
-location: Hsin Ju
+  - Vue
 ---
 
 > 第一篇VuePress
