@@ -8,7 +8,7 @@ module.exports = {
         nav: [
             {
               text: "日文文法指南",
-              link: "/jpgramma_zhtw/"
+              link: "https://ayajiro.github.io/jpgramma_zhtw/"
             },
             {
               text: "日常筆記",
@@ -24,7 +24,7 @@ module.exports = {
             },
             {
               text: "遊記",
-              link: "/oldblog/"
+              link: "https://ayajiro.github.io/oldblog/"
             }
             
           ],
