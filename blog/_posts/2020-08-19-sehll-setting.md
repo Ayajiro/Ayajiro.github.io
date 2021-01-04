@@ -1,5 +1,6 @@
 ---
 title: Shell setting with zimfm, iTerm2 and powerlevel10k.
+date: 2020-08-19
 tags: 
   - shell
 summary: Installed zimfm, iTerm2 and powerlevel10k. And There's a BUG.
