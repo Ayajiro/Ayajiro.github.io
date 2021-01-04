@@ -1,6 +1,5 @@
 ---
 title: Vuepress component 改寫
-date: 2020-12-15
 tags:
   - Vue.js
 summary: 改寫component的時候遇到一些問題，做個筆記。
