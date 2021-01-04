@@ -3,6 +3,11 @@ module.exports = {
     title: "Ayajiro",
     description: "Web development, Frontend, Javascript",
     theme: "@vuepress/blog",
+    plugins: [
+      [
+        "plugins/plugin-blog"
+      ]
+    ],
     themeConfig: {
         nav: [
             {
