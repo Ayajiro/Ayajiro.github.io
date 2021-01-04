@@ -3,7 +3,9 @@ title: 調用 Vuepress components
 date: 2020-12-15
 tags:
  - Vuepress
+summary: 調用 Vuepress components 時遇到了一些問題，做個筆記。
 ---
+
 Folder Structure
 
 componentes>TheComponent.vue

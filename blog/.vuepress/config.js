@@ -2,7 +2,6 @@
 module.exports = {
     title: "Ayajiro",
     description: "Web development, Frontend, Javascript",
-    port:"8080",
     theme: "@vuepress/blog",
     themeConfig: {
         nav: [

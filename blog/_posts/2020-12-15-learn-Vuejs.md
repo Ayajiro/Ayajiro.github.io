@@ -3,6 +3,7 @@ title: Vuepress component 改寫
 date: 2020-12-15
 tags:
  - Vue.js
+summary: 改寫component的時候遇到一些問題，做個筆記。
 ---
 
 自己搜尋Vue.js方法改寫成component的時候遇到一些問題，因爲對Vue.js概念還不是很清楚，做個筆記。
