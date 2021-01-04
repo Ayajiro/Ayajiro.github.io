@@ -5,7 +5,7 @@ module.exports = {
     theme: "@vuepress/blog",
     plugins: [
       [
-        "plugins/plugin-blog"
+        "./plugins/plugin-blog"
       ]
     ],
     themeConfig: {
