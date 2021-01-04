@@ -1,6 +1,6 @@
 ---
 title: Test vuepress
-date: 2020-11-08
+date: 2020-11-8
 tags: 
   - Vue
 ---
