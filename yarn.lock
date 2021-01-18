@@ -1182,7 +1182,7 @@
   dependencies:
     "@vssue/api-github-v3" "^1.1.2"
     "@vssue/vuepress-plugin-vssue" "^1.2.0"
-    dayjs "^1.8.19"
+    dayjs "^1.10.3"
     vuejs-paginate "^2.1.0"
     vuepress-plugin-disqus "^0.2.0"
     vuepress-plugin-feed "^0.1.8"
@@ -1256,7 +1256,7 @@
     "@vuepress/plugin-nprogress" "^1.5.4"
     "@vuepress/plugin-pwa" "^1.5.4"
     "@vuepress/plugin-search" "^1.5.4"
-    dayjs "^1.8.19"
+    dayjs "^1.10.3"
     remove-markdown "^0.3.0"
     vue-feather-icons "^4.21.0"
     vuepress-plugin-smooth-scroll "^0.0.9"
@@ -2864,10 +2864,10 @@ date-fns@^1.29.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
-dayjs@^1.8.19:
-  version "1.9.6"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.9.6.tgz#6f0c77d76ac1ff63720dd1197e5cb87b67943d70"
-  integrity sha512-HngNLtPEBWRo8EFVmHFmSXAjtCX8rGNqeXQI0Gh7wCTSqwaKgPIDqu9m07wABVopNwzvOeCb+2711vQhDlcIXw==
+dayjs@^1.10.3:
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.3.tgz#cf3357c8e7f508432826371672ebf376cb7d619b"
+  integrity sha512-/2fdLN987N8Ki7Id8BUN2nhuiRyxTLumQnSQf9CNncFCyqFsSKb9TNhzRYcC8K8eJSJOKvbvkImo/MKKhNi4iw==
 
 de-indent@^1.0.2:
   version "1.0.2"

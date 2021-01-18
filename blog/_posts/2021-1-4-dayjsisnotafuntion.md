@@ -13,6 +13,6 @@ Action 跳錯主要問題是 dayjs，我原本以爲是格式問題，不過後�
 
 看了一下[dayjs](https://github.com/iamkun/dayjs/blob/dev/CHANGELOG.md)的 CHANGELOG 跟我自己 Action 有成功的時間對照，應該是 12/27 那支更新有動到什麼所以連帶 Vuepress 也壞了。
 
-看了一下[這支PR](https://github.com/vuepress/vuepress-plugin-blog/pull/93)，自己試了一下沒有什麼感覺，但是本機端沒問題，有可能是 Action 上跑的版本有問題。
+看了一下[這支 PR](https://github.com/vuepress/vuepress-plugin-blog/pull/93)，自己試了一下沒有什麼感覺，但是本機端沒問題，有可能是 Action 上跑的版本有問題。
 
 最後是拆掉 Action 直接推建好的靜態版本上去。不過本機沒有開 branch，要 rebase 花了一點時間，手動 build 然後推是有點麻煩，但在 Action 修好之前只能先這樣了，之後再建一個環境來看看有沒有辦法幫忙改。
