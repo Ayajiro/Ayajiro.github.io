@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{485:function(n,t,u){"use strict";u.r(t);var e={data:function(){return{counter:0}}},r=u(17),s=Object(r.a)(e,(function(){return(0,this._self._c)("div",{attrs:{id:"counter"}},[this._v("\n    Counter: "+this._s(this.counter)+"\n")])}),[],!1,null,null,null);t.default=s.exports}}]);
