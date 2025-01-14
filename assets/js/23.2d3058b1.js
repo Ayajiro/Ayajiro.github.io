@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{490:function(t,s,e){"use strict";e.r(s);var n=e(17),o=Object(n.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("blockquote",[t("p",[this._v("第二篇VuePress")])]),this._v(" "),t("p",[this._v("測試看看？")])])}),[],!1,null,null,null);s.default=o.exports}}]);
