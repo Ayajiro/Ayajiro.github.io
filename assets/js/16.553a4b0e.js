@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{455:function(t,s,n){},474:function(t,s,n){"use strict";n(455)},505:function(t,s,n){"use strict";n.r(s);n(474);var i=n(17),o=Object(i.a)({},(function(){var t=this._self._c;return t("div",{staticClass:"start"},[t("router-link",{attrs:{to:"/post/"}},[this._v("日常筆記")])],1)}),[],!1,null,"840f5788",null);s.default=o.exports}}]);

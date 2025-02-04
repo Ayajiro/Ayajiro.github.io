@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NextJS + NestJS Monorepo 01 | Ayajiro</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="跟著教學走的筆記。">
+    
+    <link rel="preload" href="/assets/css/0.styles.6b9a45a2.css" as="style"><link rel="preload" href="/assets/js/app.971dd718.js" as="script"><link rel="preload" href="/assets/js/4.bb107a7f.js" as="script"><link rel="preload" href="/assets/js/1.2ebccd5f.js" as="script"><link rel="preload" href="/assets/js/33.e8d12fff.js" as="script"><link rel="prefetch" href="/assets/js/11.650253df.js"><link rel="prefetch" href="/assets/js/12.d021a53c.js"><link rel="prefetch" href="/assets/js/13.5a63e3da.js"><link rel="prefetch" href="/assets/js/14.6dab816a.js"><link rel="prefetch" href="/assets/js/15.1ef27ee2.js"><link rel="prefetch" href="/assets/js/16.553a4b0e.js"><link rel="prefetch" href="/assets/js/17.57614f43.js"><link rel="prefetch" href="/assets/js/18.8977e974.js"><link rel="prefetch" href="/assets/js/19.984aad17.js"><link rel="prefetch" href="/assets/js/2.39c71a44.js"><link rel="prefetch" href="/assets/js/20.263a26d9.js"><link rel="prefetch" href="/assets/js/21.e540ed8a.js"><link rel="prefetch" href="/assets/js/22.09fa5670.js"><link rel="prefetch" href="/assets/js/23.2d3058b1.js"><link rel="prefetch" href="/assets/js/24.ec1a098a.js"><link rel="prefetch" href="/assets/js/25.045dad78.js"><link rel="prefetch" href="/assets/js/26.d1b6864e.js"><link rel="prefetch" href="/assets/js/27.91d3ad30.js"><link rel="prefetch" href="/assets/js/28.45efe55e.js"><link rel="prefetch" href="/assets/js/29.4c5a1c7c.js"><link rel="prefetch" href="/assets/js/3.98b65841.js"><link rel="prefetch" href="/assets/js/30.4214bd01.js"><link rel="prefetch" href="/assets/js/31.8c60fffa.js"><link rel="prefetch" href="/assets/js/32.71c4cb06.js"><link rel="prefetch" href="/assets/js/34.303e61a5.js"><link rel="prefetch" href="/assets/js/35.b63afd65.js"><link rel="prefetch" href="/assets/js/5.1a708913.js"><link rel="prefetch" href="/assets/js/6.c6262bda.js"><link rel="prefetch" href="/assets/js/7.40537980.js"><link rel="prefetch" href="/assets/js/8.320c1049.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.c20106ae.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6b9a45a2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">Ayajiro </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="https://ayajiro.github.io/jpgramma_zhtw/" target="_blank" rel="noopener noreferrer" class="nav-link external">日文文法指南</a></li><li class="nav-item"><a href="/post/" class="nav-link">日常筆記</a></li><li class="nav-item"><a href="https://github.com/Ayajiro" target="_blank" rel="noopener noreferrer" class="nav-link external">GitHub</a></li><li class="nav-item"><a href="/" class="nav-link">About</a></li><li class="nav-item"><a href="https://ayajiro.github.io/oldblog/" target="_blank" rel="noopener noreferrer" class="nav-link external">遊記</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">Ayajiro </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="https://ayajiro.github.io/jpgramma_zhtw/" target="_blank" rel="noopener noreferrer" class="nav-link external">日文文法指南</a></li><li class="mobile-nav-item"><a href="/post/" class="nav-link">日常筆記</a></li><li class="mobile-nav-item"><a href="https://github.com/Ayajiro" target="_blank" rel="noopener noreferrer" class="nav-link external">GitHub</a></li><li class="mobile-nav-item"><a href="/" class="nav-link">About</a></li><li class="mobile-nav-item"><a href="https://ayajiro.github.io/oldblog/" target="_blank" rel="noopener noreferrer" class="nav-link external">遊記</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        NextJS + NestJS Monorepo 01
+      </h1> <div class="post-meta"><!----> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2025-1-23">
+      Thu Jan 23 2025
+    </time></div> <!----></div></header> <div itemprop="articleBody" class="content__default"><p>跟著
+<a href="https://youtu.be/Y9KNU2MnO-o?si=QjLI37bHBjRjoyhC" target="_blank" rel="noopener noreferrer">All in One NextJS And NestJS Full Authentication Monorepo Project<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 進行。</p> <p>本節目標：</p> <ol><li>建立Monorepo專案</li> <li>建立登入頁面</li> <li>建立後端API</li> <li>後端串接資料庫</li> <li>簡單的資料格式驗證</li> <li>由登入頁面送出資料給後端寫入資料庫</li></ol> <p>參考資料補充於<a href="2025-1-23-playforfun-note">NextJS + NestJS Monorepo Note</a></p> <h2 id="建立-turborepo"><a href="#建立-turborepo" class="header-anchor">#</a> 建立 Turborepo</h2> <div class="language- extra-class"><pre class="language-text"><code>npm i turbo -g
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>npx create-turbo@latest
+
+where would yoy like to create youre Turborepo?
+&gt;&gt; .
+</code></pre></div><h2 id="在apps下安裝nestjs工具"><a href="#在apps下安裝nestjs工具" class="header-anchor">#</a> 在apps下安裝nestjs工具</h2> <div class="language- extra-class"><pre class="language-text"><code>cd apps
+
+npm i -g @nestjs/cli
+
+nest new api
+
+</code></pre></div><p>這時執行 <code>npm run dev</code> 跑起來的不是nestjs服務
+修改package.json指令</p> <div class="language- extra-class"><pre class="language-text"><code>&quot;start:dev&quot;: &quot;nest start --watch&quot;
+&quot;dev&quot;: &quot;nest start --watch&quot;,
+</code></pre></div><p>再次執行 <code>npm run dev</code> 發現port已被使用
+調整nestjs監聽port
+api\src\main.ts
+如果port被佔用 需要清除該port</p> <h3 id="安裝prisma"><a href="#安裝prisma" class="header-anchor">#</a> 安裝Prisma</h3> <p>這一段因為突然來了一個Neon DB，研究了一陣子，有些地方會跟教學不同。</p> <p>在apps\api下安裝</p> <div class="language- extra-class"><pre class="language-text"><code>npm i prisma -D
+
+npx prisma init
+</code></pre></div><p>連結Neon postgre資料庫
+在Neon申請帳號後，建立資料庫
+在apps\api\ .env檔案中，將DATABASE_URL改為Neon dashBoard connect產生的路徑</p> <h3 id="拉取資料庫結構"><a href="#拉取資料庫結構" class="header-anchor">#</a> 拉取資料庫結構</h3> <div class="language- extra-class"><pre class="language-text"><code>npx prisma db pull
+</code></pre></div><p>因為新建資料庫需要花比較多時間研究，這邊跟教學不同的地方是，使用教學Github上的檔案反向生成資料庫結構，但依然會需要先在Neon資料庫中建立一個Table，之後會蓋掉。</p> <div class="language- extra-class"><pre class="language-text"><code>npx prisma db push
+</code></pre></div><p>這樣就可以確保資料庫格式和教學相同，減少需要除錯的地方。反過來也可以進入NeonTable看欄位的開法。所以其實可以先寫好schema再Push生成Table。實作上這樣開欄位應該比較合適。</p> <p>接下來解析schema建立prisma-client</p> <div class="language- extra-class"><pre class="language-text"><code>npx prisma generate
+</code></pre></div><p>nest 啟用 Prisma 服務</p> <div class="language- extra-class"><pre class="language-text"><code>nest g s prisma
+</code></pre></div><p>現在可以在src資料夾下看到prisma服務檔案</p> <p>從這裡取得prisma.service.ts的範例，覆蓋檔案
+<a href="https://docs.nestjs.com/recipes/prisma" target="_blank" rel="noopener noreferrer">Prisma | NestJS - A progressive Node.js framework<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="建立後端api"><a href="#建立後端api" class="header-anchor">#</a> 建立後端API</h3> <div class="language- extra-class"><pre class="language-text"><code>nest g res auth --no-spec
+選REST API，不需要CRUD進入點
+</code></pre></div><p>這時會建立auth資料夾，以及controller、module、service等檔案。</p> <p>在controller檔案中，建立Post指令signup，並呼叫registerUser函式。這時會需要建立dto(資料傳輸對象 data transfer object)。</p> <p>在auth下手動建立dto資料夾，及creater-user.dto.ts檔案。
+安裝class資料驗證相關套件。</p> <div class="language- extra-class"><pre class="language-text"><code>npm i -D class-validator class-transformer
+</code></pre></div><p><a href="https://ithelp.ithome.com.tw/articles/10340470" target="_blank" rel="noopener noreferrer">【Day44】ChatGPT請教教我：NestJS！（三）- Controller &amp; 資料驗證 ！class-validator &amp; class-transformer！ - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>接著在main.ts中設定驗證流程。</p> <div class="language- extra-class"><pre class="language-text"><code> app.useGlobalPipes(
+    new ValidationPipe({
+        transform:true,
+        whitelist:true,
+    })
+  );
+</code></pre></div><p>然後在authController及authService中建立註冊使用者方法registerUser()</p> <div class="language- extra-class"><pre class="language-text"><code> %% controller %%
+ registerUser(@Body() CreateUserDto: CreateUserDto) {
+    return this.authService.registerUser(CreateUserDto);
+  }
+  
+  %% service %%
+  registerUser(createUserDto: CreateUserDto) {
+
+        return 'This action adds a new user';
+
+    }
+</code></pre></div><p>接著再次使用nest res api，建立新的User class</p> <div class="language- extra-class"><pre class="language-text"><code>nest g res user --no-spec
+REST API
+generate CRUD
+</code></pre></div><p>刪除User下的dto檔案，並將原本建立的create-user-dto移動過去。
+因為使用Prisma，entities資料夾也可刪除。
+將userService和userController中的createUserDto換成自己寫的，並且刪除其他方法。
+在userService中建立與Prisma的連結（引入prisma），建立函式透過prisma查詢User是否存在（prisma用來查詢的唯一欄位需要設定為@unique）。</p> <p>需要hash使用者密碼，所以安裝hash工具 <code>npm i argon2</code> 。照教學的說法這個套件速度比crypto快。</p> <p>建立User的步驟：查詢是否存在&gt;不存在建立User&gt;Hash密碼之後給prisma處理</p> <p>這一段的教學在async await部分很混亂，可以參考github檔案。</p> <h3 id="前端部分"><a href="#前端部分" class="header-anchor">#</a> 前端部分</h3> <p>在web資料夾中建立app/auth/layout.tsx及auth/signup/page.tsx
+裡面的內容都是貼上的，這時在monorepo中執行npm run dev的話，建立起來的前端頁面會吃不到CSS，因為目前尚未安裝TailwindCss。</p> <p>因為tailwind 4 才剛出不久，這邊安裝跟教學相同的3.4.17版本。
+<a href="https://v3.tailwindcss.com/docs/guides/nextjs" target="_blank" rel="noopener noreferrer">Install Tailwind CSS with Next.js - Tailwind CSS<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>安裝
+npm install -D tailwindcss@3 postcss autoprefixer
+產生設定檔案
+npx tailwindcss init -p
+</code></pre></div><p>將這段貼到tailwind.config檔案的content中</p> <div class="language- extra-class"><pre class="language-text"><code>&quot;./app/**/*.{js,ts,jsx,tsx,mdx}&quot;,
+&quot;./pages/**/*.{js,ts,jsx,tsx,mdx}&quot;,
+&quot;./components/**/*.{js,ts,jsx,tsx,mdx}&quot;,
+</code></pre></div><p>然後依官網教學覆蓋globals.css檔案</p> <p>接下來要做登入表格，這邊要安裝 shad-cn <a href="https://medium.com/@Kelly_CHI/shadcn-ui-tailwind-components-6fd4f1959147" target="_blank" rel="noopener noreferrer">Shadcn-ui : 美觀、無障礙、又能 100 % 客製化的「元件合集」 | by Kelly CHI | Medium<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，</p> <div class="language- extra-class"><pre class="language-text"><code>在根目錄執行
+npx shadcn@canary init -c ./apps/web
+</code></pre></div><p>這時會跳錯表示tsconfig檔案沒有設定import alias</p> <div class="language- extra-class"><pre class="language-text"><code>&quot;baseUrl&quot;: &quot;.&quot;,
+&quot;paths&quot;: {
+  &quot;@/*&quot;: [&quot;./*&quot;]
+}
+</code></pre></div><p>設定後存檔重跑
+![[Pasted image 20250202173108.png]]
+安裝成功</p> <p>進到web資料夾安裝按鈕元件，元件檔案會出現在Component目錄之下。</p> <div class="language- extra-class"><pre class="language-text"><code>npx shadcn@latest add button
+npx shadcn@latest add label
+npx shadcn@latest add input
+
+</code></pre></div><p>建立SignupForm元件。需要使用的表格元件都從Compnent中引用。</p> <p>建立註冊按鈕，在Component下建立新的元件檔案。</p> <p>接下來在web/lib 建立auth.ts和type.ts 做登入的資料驗證。
+安裝zod套件，這邊主要做幾件事：</p> <ol><li>每個資料格式的限制與提示訊息設定，使用Zod</li> <li>串接後端註冊API</li> <li>設定.env檔案（NextJS需要帶有NEXT前綴）
+成功打API後就會跳轉到404頁面，並且可以透過 npx prisma studio指令叫出資料庫後臺，檢查是否成功寫入資料庫。</li></ol> <p>到這個階段，已經有註冊頁面可送出資料給後端寫入資料庫，並且包含簡易的資料驗證。</p></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h2 active"><a href="#建立-turborepo" title="建立 Turborepo">建立 Turborepo</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#在apps下安裝nestjs工具" title="在apps下安裝nestjs工具">在apps下安裝nestjs工具</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#安裝prisma" title="安裝Prisma">安裝Prisma</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#拉取資料庫結構" title="拉取資料庫結構">拉取資料庫結構</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#建立後端api" title="建立後端API">建立後端API</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#前端部分" title="前端部分">前端部分</a></div></div></div></div> <footer class="footer" data-v-3d9deeb8><div class="footer-left-wrap" data-v-3d9deeb8><ul class="contact" data-v-3d9deeb8><li class="contact-item" data-v-3d9deeb8><a href="https://github.com/Ayajiro" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" data-v-3d9deeb8><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" data-v-3d9deeb8></path></svg>
+          
+        </a></li><li class="contact-item" data-v-3d9deeb8><a href="https://twitter.com/oscrx78" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter" data-v-3d9deeb8><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" data-v-3d9deeb8></path></svg>
+          
+        </a></li><li class="contact-item" data-v-3d9deeb8><a href="mailto:nakamura.ayajiro@gmail.com" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" data-v-3d9deeb8><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" data-v-3d9deeb8></path><polyline points="22,6 12,13 2,6" data-v-3d9deeb8></polyline></svg>
+          
+        </a></li><li class="contact-item" data-v-3d9deeb8><a href="https://www.youtube.com/channel/UCt_FBDYnWZJHE2IDgPPW2LQ" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube" data-v-3d9deeb8><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" data-v-3d9deeb8></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" data-v-3d9deeb8></polygon></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-3d9deeb8><ul class="copyright" data-v-3d9deeb8><li class="copyright-item" data-v-3d9deeb8>Ayajiro © 2020</li></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.971dd718.js" defer></script><script src="/assets/js/4.bb107a7f.js" defer></script><script src="/assets/js/1.2ebccd5f.js" defer></script><script src="/assets/js/33.e8d12fff.js" defer></script>
+  </body>
+</html>
